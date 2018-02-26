@@ -26,3 +26,21 @@ namespace FrogJmp
         }
     }
 }
+
+
+ int steps = 0;
+      if (Y == 0 || X==Y)
+        return steps;
+
+      steps = (X + Y) / D;
+
+      //if (D != 0) { 
+      //for (int i=X; i < Y; i += D)
+      //{
+      //  steps++;
+      //}
+      //while (X < Y)
+      //{
+      //  steps++;
+      //  X += D;       
+      return steps;
